@@ -1,13 +1,13 @@
-package game.pokemon;
+package com.example.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class PokemonApplication {
+public class DemoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(PokemonApplication.class, args);
+		SpringApplication.run(DemoApplication.class, args);
 	}
 
 }
